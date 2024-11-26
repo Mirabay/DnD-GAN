@@ -200,10 +200,10 @@ if __name__ == '__main__':
     dndDataLoader = GenerateDataSet(root=root, image_size=128, batch_size=128)
 
     # Parameters
-    lrD = 2e-5#8e-5
-    lrG = 2e-4#6e-4
+    lrD = 2e-6#8e-5
+    lrG = 2e-5#6e-4
     epochs = 250
-    nz = 100
+    nz = 1000
     filtros = 128
     
     # Create the generator and discriminator
